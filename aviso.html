@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviso de Privacidad - TEMPLARIOS GYM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #222;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #c40000;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+            margin-top: 30px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>THE GYM</title>
+</head>
+<header>
+            <h1>TEMPLARIOS <span class="txtRojo">GYM</span></h1>
+            <nav id="nav">
+              
+            </nav>
+           
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>                
+        </header>
+<body>
+
+    <div class="container">
+        <h1>Aviso de Privacidad</h1>
+        
+        <p>
+            Gimnasio TEMPLARIOS GYM, con domicilio en Calle 1 Norte 1969, Tequixtlali, El Mirador, Heroica Ciudad de Calpulalpan, Tlaxcala, 90204, en cumplimiento con lo dispuesto por la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, hace de su conocimiento que los datos personales que usted nos proporciona a través de nuestro sitio web [URL del sitio web], serán utilizados única y exclusivamente para los fines que se describen a continuación:
+        </p>
+
+        <h2>Finalidad del tratamiento de datos</h2>
+        <p>Los datos personales que recabamos (como nombre, correo electrónico, número de teléfono, edad, entre otros) tienen como finalidad:</p>
+        <ul>
+            <li>Gestionar su registro como usuario del gimnasio.</li>
+            <li>Brindar información sobre nuestros servicios, promociones y horarios.</li>
+            <li>Realizar análisis estadísticos internos.</li>
+            <li>Enviar notificaciones relacionadas con el uso de nuestras instalaciones y programas de entrenamiento.</li>
+            <li>Mantener comunicación directa sobre cambios en nuestros servicios o políticas.</li>
+        </ul>
+
+        <h2>Protección de los datos</h2>
+        <p>
+            Sus datos personales serán resguardados bajo estrictas medidas de seguridad administrativas, técnicas y físicas, para garantizar su confidencialidad y evitar el acceso no autorizado, pérdida, alteración o divulgación indebida.
+        </p>
+
+        <h2>Transferencia de datos</h2>
+        <p>
+            Sus datos personales no serán compartidos ni transferidos a terceros sin su consentimiento expreso, salvo en los casos legalmente previstos.
+        </p>
+
+        <h2>Derechos ARCO (Acceso, Rectificación, Cancelación y Oposición)</h2>
+        <p>
+            Usted tiene derecho a acceder, rectificar, cancelar u oponerse al uso de sus datos personales. Para ejercer estos derechos, puede enviar una solicitud al correo electrónico: [correo de contacto del gimnasio], indicando su nombre completo, motivo de la solicitud y documentación que acredite su identidad.
+        </p>
+
+        <h2>Cambios al aviso de privacidad</h2>
+        <p>
+            Nos reservamos el derecho de efectuar en cualquier momento modificaciones o actualizaciones al presente aviso de privacidad, mismas que estarán disponibles en nuestro sitio web en la sección correspondiente.
+        </p>
+
+        <p>
+            Al ingresar sus datos en nuestra plataforma, usted acepta los términos del presente Aviso de Privacidad.
+        </p>
+
+        <footer>
+            Última actualización: <span id="fecha-actual"></span>
+        </footer>
+    </div>
+
+    <script>
+        // Mostrar fecha actual
+        const fecha = new Date();
+        const opciones = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById('fecha-actual').textContent = fecha.toLocaleDateString('es-MX', opciones);
+    
+    </script>
+  <script src="app.js"></script>
+</body>
+</html>

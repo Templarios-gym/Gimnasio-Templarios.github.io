@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>TEMPLARIO´S</title>
+     <link rel="icon" href="img/logo.ico">
+</head>
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <h1>TEMPLARIOS <span class="txtRojo">GYM</span></h1>
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">inicio</a>
+                <a href="#nosotros" onclick="seleccionar()">Nosotros</a>
+                <a href="#servicios" onclick="seleccionar()">Servicios</a>
+                <a href="#comodidades" onclick="seleccionar()">Comodidades</a>
+                <a href="#galeria" onclick="seleccionar()">Galería</a>
+                <a href="#equipo" onclick="seleccionar()">Equipo</a>
+                <a href="#contacto" onclick="seleccionar()">Contacto</a>
+            </nav>
+            <div class="redes">
+                <a href="https://web.facebook.com/profile.php?id=100071335564000"><i class="fa-brands fa-facebook-f"></i></a>
+             
+                <a href="https://www.instagram.com/gymtemplarios749/"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>                
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-seccion">
+            <div class="info">
+                <h2>HAZ QUE <span class="txtRojo">OCURRA</span></h2>
+                <p>Triunfar es más facil de lo que piensas!</p>
+                <a href="#nosotros" class="btn-mas">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </a>
+            </div>
+            <div class="opciones">
+                <div class="opcion">
+                    01.FITNESS
+                </div>
+                <div class="opcion">
+                    02.CROSSFIT
+                </div>
+                <div class="opcion">
+                    03.BOXING
+                </div>
+             
+                <div class="opcion">
+                    04.YOGA
+                </div>
+                <div class="opcion">
+                    05.CARDIO
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+        <div class="fila">
+            <div class="col">
+                <img src="img/nosotros.png" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        01
+                    </div>
+                    <div class="info">
+                        <span class="frase">LA MEJOR EXPERIENCIA</span>
+                        <h2>NOSOTROS</h2>
+                    </div>
+                </div>
+                <p class="p-especial">MEJORA TU VIDA CON NUESTRO EQUIPO</p>
+                <p>Consigue tus metas, haz que tus sueños se hagan realidad em TEMPLARIOS GYM, el mejor centro de entrenamiento en nuestro punto de establecimiento</p>
+            </div>
+        </div>
+        <hr>
+        <div class="fila-nosotros">
+            <div class="col1">
+                <span class="frase">
+                    <span class="txtRojo">ENTRENA</span> DIFERENTE
+                </span>
+                <h2>ENTRENA <span class="txtRojo">GRATIS</span> HOY!</h2>
+            </div>
+            <div class="col2">
+                <button>PASE LIBRE</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="contenido-seccion">
+            <div class="fila">
+                <div class="col">
+                    <div class="contenedor-titulo">
+                        <div class="numero">
+                            02
+                        </div>
+                        <div class="info">
+                            <span class="frase">LA MEJOR EXPERIENCIA</span>
+                            <h2>SERVICIOS</h2>
+                        </div>
+                    </div>
+                    <p class="p-especial">Los mejores equipos estan aquí.</p>
+                    <p>Suda, Respira, Repite: Cada gota de esfuerzo te acerca a tu mejor versión.</p>
+                </div>
+                <div class="col">
+                    <img src="img/servicios.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="info-servicios">
+            <table>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-person-walking"></i>
+                        <h3><span class="txtRojo">Clases </span> de Fitness</h3>
+                        <p>¡Mueve tu cuerpo! ¡siente el fuego! ¡libera tu energia!</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <h3><span class="txtRojo">Clases </span> de Crossfit</h3>
+                        <p>No te rindas, cada repeticion es un desafio superado.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-mitten"></i>
+                        <h3><span class="txtRojo">Clases </span> de Boxeo</h3>
+                        <p>Suda, lucha, vence, el boxeo no es solo un deporte, es una mentalidad.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-clock"></i>
+                        <h3><span class="txtRojo">Clases </span> de Resistencia</h3>
+                        <p>No te detenfas la resistencia es mental y fisica, y tu la tienes.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-heart-circle-bolt"></i>
+                        <h3><span class="txtRojo">Clases </span> de Cardio</h3>
+                        <p>Muevete, quema, revive, el cardio es libertad para tu cuerpo.</p>
+                    </td>
+                  
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- SECCION COMODIDADES -->
+    <section id="comodidades" class="comodidades">
+        <div class="fila">
+            <div class="col">
+                <img src="img/nosotros.png" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        03
+                    </div>
+                    <div class="info">
+                        <span class="frase">LA MEJOR EXPERIENCIA</span>
+                        <h2>COMODIDADES</h2>
+                    </div>
+                </div>
+                <p class="p-especial">Los mejores equipos y entrenamientos, solo con nosotros.</p>
+                <ul>
+                    <li><span>RING</span> - Contamos con un ring de entrenamiento para todos los clientes de nuestro servicio</li>
+                    <li><span>WIFI GRATIS</span> - Contamos con WI-FI gratis para todos los clientes, con una gran eficiencia.</li>
+                    <li><span>ESTACIONAMIENTO GRATIS</span> - Contamos con un espacio propio para todos los automoviles nuestros clientes, teniendo confianza sobre la seguridad de sus vehiculos..</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION GALERIA -->
+    <section class="galeria" id="galeria">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    04
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>GALERIA</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/img 1.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/img 2.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/img 4.jpg" alt="">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/img 6.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/img 7.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/img 1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION EQUIPO -->
+    <section class="equipo" id="equipo">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    05
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>EQUIPO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                  
+                    <div class="info">
+                        <h2>Mack Henry</h2>
+                        <p>Fitness</p>
+                        
+                    </div>
+                </div>
+                <div class="col">
+                   
+                    <div class="info">
+                        <h2>Sofia Ortiz</h2>
+                        <p>Fitness </p>
+                       
+                    </div>
+                </div>
+                <div class="col">
+                    
+                    <div class="info">
+                        <h2>Saul Hernandez</h2>
+                        <p>Fitness </p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- SECCION CONTACTO -->
+<section class="contacto" id="contacto">
+  <div class="contenido-seccion">
+    <div class="contenedor-titulo">
+      <div class="numero">06</div>
+      <div class="info">
+        <span class="frase">LA MEJOR EXPERIENCIA</span>
+        <h2>CONTACTO</h2>
+      </div>
+    </div>
+    <form id="formContacto">
+      <div class="fila">
+        <div class="col">
+          <input type="email" name="user_email" placeholder="Ingrese Email" required />
+        </div>
+        <div class="col">
+          <input type="text" name="user_name" placeholder="Ingrese Nombre" required />
+        </div>
+      </div>
+      <div class="mensaje">
+        <textarea name="message" cols="30" rows="10" placeholder="Ingresa el Mensaje" required></textarea>
+        <button type="submit">Enviar Mensaje</button>
+      </div>
+    </form>
+    <div class="fila-datos">
+      <div class="col"><i class="fa-solid fa-location-dot"></i> Calle Uno Nte 1969</div>
+      <div class="col"><i class="fa-solid fa-phone"></i> 749104 - 7993</div>
+      <div class="col"><i class="fa-regular fa-clock"></i> Lunes a Sábado, 8:00 AM - 11:00 PM</div>
+    </div>
+  </div>
+</section>
+
+
+    <footer>
+        <div class="info">
+            <p>2025 - <span class="txtRojo">TEMPLARIOS GYM</span> Todos los derechos reservados</p>
+            <div class="redes">
+                <a href="https://web.facebook.com/profile.php?id=100071335564000">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+               
+                <a href="https://www.instagram.com/gymtemplarios749/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+              
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+    <div id="modalAviso" class="modal">
+  <div class="modal-content">
+    <h2>Aviso de Privacidad</h2>
+    <p>En Templarios Gym, tu privacidad es muy importante. Usamos tus datos para brindarte un mejor servicio.</p>
+    <a href="aviso.html" target="_blank">Leer más</a>
+    <div>
+      <input type="checkbox" id="aceptoAviso">
+      <label for="aceptoAviso">He leído el aviso de privacidad</label>
+    </div>
+    <button id="btnAceptar" disabled>Aceptar</button>
+  </div>
+</div>
+
+<style>
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.modal-content button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.modal-content button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #c40000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-content a {
+  display: block;
+  margin: 10px 0;
+  color: #c40000;
+  text-decoration: underline;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const modal = document.getElementById('modalAviso');
+  const check = document.getElementById('aceptoAviso');
+  const btnAceptar = document.getElementById('btnAceptar');
+
+  check.addEventListener('change', function() {
+    btnAceptar.disabled = !check.checked;
+  });
+
+  btnAceptar.addEventListener('click', function() {
+    modal.style.display = 'none';
+  });
+});
+</script>
+
+    </div>
+</form>
+<!-- EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+  // Inicializa EmailJS con tu PUBLIC KEY
+  (function() {
+    emailjs.init('TU_PUBLIC_KEY'); // <-- Reemplaza con tu public key
+  })();
+
+  document.getElementById('formContacto').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    emailjs.sendForm('TU_SERVICE_ID', 'TU_TEMPLATE_ID', this)
+      .then(function() {
+        alert('Mensaje enviado con éxito!');
+        document.getElementById('formContacto').reset(); // Borra los datos
+      }, function(error) {
+        alert('Error al enviar el mensaje: ' + JSON.stringify(error));
+      });
+  });
+</script>
+
+</body>
+</html>
